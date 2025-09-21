@@ -1,7 +1,7 @@
 // Dominios comunes y sus variaciones incorrectas
 const domainSuggestions = {
     // Gmail
-    'gmail.com': ['gmial.com', 'gmail.co', 'gmail.coom', 'gmai.com', 'gmail.cm', 'gmial.co', 'gmaill.com', 'gmail.mx', 'gmail.es', 'gmail.org', 'gmail.net', 'gmaiil.com', 'gmaill.co', 'gmial.mx', 'gmail.co.uk', 'gmail.fr', 'gmail.de'],
+    'gmail.com': ['gmial.com', 'gmail.co', 'gmail.coom', 'gmai.com', 'gmail.cm', 'gmial.co', 'gmaill.com', 'gmail.mx', 'gmail.es', 'gmail.org', 'gmail.net', 'gmaiil.com', 'gmaill.co', 'gmial.mx', 'gmail.co.uk', 'gmail.fr', 'gmail.de','yimail.com','yimial.com', 'yimail.co', 'yimail.coom', 'yimai.com', 'yimail.cm', 'yimial.co', 'yimaill.com', 'yimail.mx', 'yimail.es', 'yimail.org', 'yimail.net', 'yimaiil.com', 'yimaill.co', 'yimial.mx', 'yimail.co.uk', 'yimail.fr', 'yimail.de'],
     
     // Hotmail
     'hotmail.com': ['hotmial.com', 'hotmail.co', 'hotmail.coom', 'hotmai.com', 'hotmail.cm', 'hotmial.co', 'hotmaill.com', 'hotmail.mx', 'hotmail.es', 'hotmail.org', 'hotmail.net', 'hotmaiil.com', 'hotmaill.co', 'hotmial.mx', 'hotmail.co.uk', 'hotmail.fr', 'hotmail.de'],
@@ -11,19 +11,15 @@ const domainSuggestions = {
     
     // Yahoo
     'yahoo.com': ['yaho.com', 'yahoo.co', 'yahoo.coom', 'yahooo.com', 'yahoo.cm', 'yaho.co', 'yahoo.comm', 'yahoo.mx', 'yahoo.es', 'yahoo.org', 'yahoo.net', 'yahooo.co', 'yahoo.co.uk', 'yahoo.fr', 'yahoo.de'],
-    
-    // Yimail (Yahoo Mail)
-    'yimail.com': ['yimial.com', 'yimail.co', 'yimail.coom', 'yimai.com', 'yimail.cm', 'yimial.co', 'yimaill.com', 'yimail.mx', 'yimail.es', 'yimail.org', 'yimail.net', 'yimaiil.com', 'yimaill.co', 'yimial.mx', 'yimail.co.uk', 'yimail.fr', 'yimail.de'],
-    
+
     // Alegra
-    'alegra.com': ['alegra.co', 'alegra.coom', 'alegra.cm', 'alegra.mx', 'alegra.es', 'alegra.org', 'alegra.net', 'alegra.co.uk', 'alegra.fr', 'alegra.de', 'alegraa.com', 'alegraa.co', 'alegraa.mx', 'alegraa.es'],
+    'alegra.com': ['alegria.co', 'alegra.coom', 'alegra.cm', 'alegra.mx', 'alegra.es', 'alegra.org', 'alegra.net', 'alegra.co.uk', 'alegra.fr', 'alegra.de', 'alegraa.com', 'alegraa.co', 'alegraa.mx', 'alegraa.es'],
     
     // Dominios .co
     'gmail.co': ['gmial.co', 'gmail.com', 'gmail.coom', 'gmai.co', 'gmail.cm', 'gmaill.co', 'gmail.mx', 'gmail.es'],
     'hotmail.co': ['hotmial.co', 'hotmail.com', 'hotmail.coom', 'hotmai.co', 'hotmail.cm', 'hotmaill.co', 'hotmail.mx', 'hotmail.es'],
     'outlook.co': ['outlok.co', 'outlook.com', 'outlook.coom', 'outloo.co', 'outlook.cm', 'outlookk.co', 'outlook.mx', 'outlook.es'],
     'yahoo.co': ['yaho.co', 'yahoo.com', 'yahoo.coom', 'yahooo.co', 'yahoo.cm', 'yahoo.comm', 'yahoo.mx', 'yahoo.es'],
-    'yimail.co': ['yimial.co', 'yimail.com', 'yimail.coom', 'yimai.co', 'yimail.cm', 'yimaill.co', 'yimail.mx', 'yimail.es'],
     'alegra.co': ['alegra.com', 'alegra.coom', 'alegra.cm', 'alegra.mx', 'alegra.es', 'alegraa.co'],
     
     // Dominios .mx
@@ -31,7 +27,6 @@ const domainSuggestions = {
     'hotmail.mx': ['hotmial.mx', 'hotmail.com', 'hotmail.co', 'hotmai.mx', 'hotmail.cm', 'hotmaill.mx', 'hotmail.es'],
     'outlook.mx': ['outlok.mx', 'outlook.com', 'outlook.co', 'outloo.mx', 'outlook.cm', 'outlookk.mx', 'outlook.es'],
     'yahoo.mx': ['yaho.mx', 'yahoo.com', 'yahoo.co', 'yahooo.mx', 'yahoo.cm', 'yahoo.comm', 'yahoo.es'],
-    'yimail.mx': ['yimial.mx', 'yimail.com', 'yimail.co', 'yimai.mx', 'yimail.cm', 'yimaill.mx', 'yimail.es'],
     'alegra.mx': ['alegra.com', 'alegra.co', 'alegra.cm', 'alegra.es', 'alegraa.mx'],
     
     // Dominios .es
@@ -39,7 +34,6 @@ const domainSuggestions = {
     'hotmail.es': ['hotmial.es', 'hotmail.com', 'hotmail.co', 'hotmai.es', 'hotmail.cm', 'hotmaill.es', 'hotmail.mx'],
     'outlook.es': ['outlok.es', 'outlook.com', 'outlook.co', 'outloo.es', 'outlook.cm', 'outlookk.es', 'outlook.mx'],
     'yahoo.es': ['yaho.es', 'yahoo.com', 'yahoo.co', 'yahooo.es', 'yahoo.cm', 'yahoo.comm', 'yahoo.mx'],
-    'yimail.es': ['yimial.es', 'yimail.com', 'yimail.co', 'yimai.es', 'yimail.cm', 'yimaill.es', 'yimail.mx'],
     'alegra.es': ['alegra.com', 'alegra.co', 'alegra.cm', 'alegra.mx', 'alegraa.es'],
     
     // Otros dominios populares
