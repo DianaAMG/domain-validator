@@ -14,14 +14,14 @@ const domainSuggestions = {
 
    
     // Dominios .co
-    'gmail.co': ['gmial.co', 'gmail.com', 'gmail.coom', 'gmai.co', 'gmail.cm', 'gmaill.co', 'gmail.mx', 'gmail.es'],
-    'hotmail.co': ['hotmial.co', 'hotmail.com', 'hotmail.coom', 'hotmai.co', 'hotmail.cm', 'hotmaill.co', 'hotmail.mx', 'hotmail.es'],
+    'gmail.co': ['gmial.co', 'gmail.coom', 'gmai.co', 'gmail.cm', 'gmaill.co', 'gmail.mx', 'gmail.es'],
+    'hotmail.co': ['hotmial.co', 'hotmail.coom', 'hotmai.co', 'hotmail.cm', 'hotmaill.co', 'hotmail.mx', 'hotmail.es'],
     'outlook.co': ['outlok.co', 'outlook.com', 'outlook.coom', 'outloo.co', 'outlook.cm', 'outlookk.co', 'outlook.mx', 'outlook.es'],
     'yahoo.co': ['yaho.co', 'yahoo.com', 'yahoo.coom', 'yahooo.co', 'yahoo.cm', 'yahoo.comm', 'yahoo.mx', 'yahoo.es'],
     
     // Dominios .mx
-    'gmail.mx': ['gmial.mx', 'gmail.com', 'gmail.co', 'gmai.mx', 'gmail.cm', 'gmaill.mx', 'gmail.es'],
-    'hotmail.mx': ['hotmial.mx', 'hotmail.com', 'hotmail.co', 'hotmai.mx', 'hotmail.cm', 'hotmaill.mx', 'hotmail.es'],
+    'gmail.mx': ['gmial.mx', 'gmail.co', 'gmai.mx', 'gmail.cm', 'gmaill.mx', 'gmail.es'],
+    'hotmail.mx': ['hotmial.mx', 'hotmail.co', 'hotmai.mx', 'hotmail.cm', 'hotmaill.mx', 'hotmail.es'],
     'outlook.mx': ['outlok.mx', 'outlook.com', 'outlook.co', 'outloo.mx', 'outlook.cm', 'outlookk.mx', 'outlook.es'],
     'yahoo.mx': ['yaho.mx', 'yahoo.com', 'yahoo.co', 'yahooo.mx', 'yahoo.cm', 'yahoo.comm', 'yahoo.es'],
     
