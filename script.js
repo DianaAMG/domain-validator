@@ -43,10 +43,15 @@ const domainSuggestions = {
 // Función para detectar errores en el dominio
 function detectDomainError(email) {
     if (!email || !email.includes('@')) return null;
-    
+
     const domain = email.split('@')[1].toLowerCase();
-    
-    // Buscar coincidencias exactas primero
+
+    // ✅ Si el dominio es correcto, no hacer nada
+    if (Object.keys(domainSuggestions).includes(domain)) {
+        return null;
+    }
+
+    // Buscar coincidencias exactas en las variaciones
     for (const [correctDomain, variations] of Object.entries(domainSuggestions)) {
         if (variations.includes(domain)) {
             return {
@@ -56,11 +61,11 @@ function detectDomainError(email) {
             };
         }
     }
-    
-    // Buscar coincidencias parciales (para casos más complejos)
+
+    // Buscar coincidencias parciales (menos comunes)
     for (const [correctDomain, variations] of Object.entries(domainSuggestions)) {
         for (const variation of variations) {
-            if (domain.includes(variation.replace('.com', '')) || 
+            if (domain.includes(variation.replace('.com', '')) ||
                 variation.replace('.com', '').includes(domain.replace('.com', ''))) {
                 return {
                     original: email,
@@ -70,7 +75,7 @@ function detectDomainError(email) {
             }
         }
     }
-    
+
     return null;
 }
 
