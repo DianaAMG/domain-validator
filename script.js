@@ -12,29 +12,25 @@ const domainSuggestions = {
     // Yahoo
     'yahoo.com': ['yaho.com', 'yahoo.co', 'yahoo.coom', 'yahooo.com', 'yahoo.cm', 'yaho.co', 'yahoo.comm', 'yahoo.mx', 'yahoo.es', 'yahoo.org', 'yahoo.net', 'yahooo.co', 'yahoo.co.uk', 'yahoo.fr', 'yahoo.de'],
 
-    // Alegra
-    'alegra.com': ['alegria.co', 'alegra.coom', 'alegra.cm', 'alegra.mx', 'alegra.es', 'alegra.org', 'alegra.net', 'alegra.co.uk', 'alegra.fr', 'alegra.de', 'alegraa.com', 'alegraa.co', 'alegraa.mx', 'alegraa.es'],
-    
+   
     // Dominios .co
     'gmail.co': ['gmial.co', 'gmail.com', 'gmail.coom', 'gmai.co', 'gmail.cm', 'gmaill.co', 'gmail.mx', 'gmail.es'],
     'hotmail.co': ['hotmial.co', 'hotmail.com', 'hotmail.coom', 'hotmai.co', 'hotmail.cm', 'hotmaill.co', 'hotmail.mx', 'hotmail.es'],
     'outlook.co': ['outlok.co', 'outlook.com', 'outlook.coom', 'outloo.co', 'outlook.cm', 'outlookk.co', 'outlook.mx', 'outlook.es'],
     'yahoo.co': ['yaho.co', 'yahoo.com', 'yahoo.coom', 'yahooo.co', 'yahoo.cm', 'yahoo.comm', 'yahoo.mx', 'yahoo.es'],
-    'alegra.co': ['alegra.com', 'alegra.coom', 'alegra.cm', 'alegra.mx', 'alegra.es', 'alegraa.co'],
     
     // Dominios .mx
     'gmail.mx': ['gmial.mx', 'gmail.com', 'gmail.co', 'gmai.mx', 'gmail.cm', 'gmaill.mx', 'gmail.es'],
     'hotmail.mx': ['hotmial.mx', 'hotmail.com', 'hotmail.co', 'hotmai.mx', 'hotmail.cm', 'hotmaill.mx', 'hotmail.es'],
     'outlook.mx': ['outlok.mx', 'outlook.com', 'outlook.co', 'outloo.mx', 'outlook.cm', 'outlookk.mx', 'outlook.es'],
     'yahoo.mx': ['yaho.mx', 'yahoo.com', 'yahoo.co', 'yahooo.mx', 'yahoo.cm', 'yahoo.comm', 'yahoo.es'],
-    'alegra.mx': ['alegra.com', 'alegra.co', 'alegra.cm', 'alegra.es', 'alegraa.mx'],
     
     // Dominios .es
     'gmail.es': ['gmial.es', 'gmail.com', 'gmail.co', 'gmai.es', 'gmail.cm', 'gmaill.es', 'gmail.mx'],
     'hotmail.es': ['hotmial.es', 'hotmail.com', 'hotmail.co', 'hotmai.es', 'hotmail.cm', 'hotmaill.es', 'hotmail.mx'],
     'outlook.es': ['outlok.es', 'outlook.com', 'outlook.co', 'outloo.es', 'outlook.cm', 'outlookk.es', 'outlook.mx'],
     'yahoo.es': ['yaho.es', 'yahoo.com', 'yahoo.co', 'yahooo.es', 'yahoo.cm', 'yahoo.comm', 'yahoo.mx'],
-    'alegra.es': ['alegra.com', 'alegra.co', 'alegra.cm', 'alegra.mx', 'alegraa.es'],
+    
     
     // Otros dominios populares
     'icloud.com': ['icloud.co', 'icloud.coom', 'icloud.cm', 'icloud.mx', 'icloud.es', 'icloud.org', 'icloud.net', 'icloud.co.uk', 'icloud.fr', 'icloud.de', 'icloudd.com', 'icloudd.co'],
