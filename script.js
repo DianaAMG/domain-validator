@@ -1,7 +1,7 @@
 // Dominios comunes y sus variaciones incorrectas
 const domainSuggestions = {
     // Gmail
-    'gmail.com': ['jimail.com','gnail.com','gmial.com','gmial.com', 'gmail.co', 'gmail.coom', 'gmai.com', 'gmail.cm', 'gmial.co', 'gmaill.com', 'gmail.mx', 'gmail.es', 'gmail.org', 'gmail.net', 'gmaiil.com', 'gmaill.co', 'gmial.mx', 'gmail.co.uk', 'gmail.fr', 'gmail.de','yimail.com','yimial.com', 'yimail.co', 'yimail.coom', 'yimai.com', 'yimail.cm', 'yimial.co', 'yimaill.com', 'yimail.mx', 'yimail.es', 'yimail.org', 'yimail.net', 'yimaiil.com', 'yimaill.co', 'yimial.mx', 'yimail.co.uk', 'yimail.fr', 'yimail.de'],
+    'gmail.com': ['gimail.com','jimail.com','gnail.com','gmial.com','gmial.com', 'gmail.co', 'gmail.coom', 'gmai.com', 'gmail.cm', 'gmial.co', 'gmaill.com', 'gmail.mx', 'gmail.es', 'gmail.org', 'gmail.net', 'gmaiil.com', 'gmaill.co', 'gmial.mx', 'gmail.co.uk', 'gmail.fr', 'gmail.de','yimail.com','yimial.com', 'yimail.co', 'yimail.coom', 'yimai.com', 'yimail.cm', 'yimial.co', 'yimaill.com', 'yimail.mx', 'yimail.es', 'yimail.org', 'yimail.net', 'yimaiil.com', 'yimaill.co', 'yimial.mx', 'yimail.co.uk', 'yimail.fr', 'yimail.de'],
     
     // Hotmail
     'hotmail.com': ['hotmial.com', 'hotmail.co', 'hotmail.coom', 'hotmai.com', 'hotmail.cm', 'hotmial.co', 'hotmaill.com', 'hotmail.mx', 'hotmail.es', 'hotmail.org', 'hotmail.net', 'hotmaiil.com', 'hotmaill.co', 'hotmial.mx', 'hotmail.co.uk', 'hotmail.fr', 'hotmail.de'],
