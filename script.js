@@ -26,8 +26,8 @@ const domainSuggestions = {
     'yahoo.mx': ['yaho.mx', 'yahoo.com', 'yahoo.co', 'yahooo.mx', 'yahoo.cm', 'yahoo.comm', 'yahoo.es'],
     
     // Dominios .es
-    'gmail.es': ['gmial.es', 'gmail.com', 'gmail.co', 'gmai.es', 'gmail.cm', 'gmaill.es', 'gmail.mx'],
-    'hotmail.es': ['hotmial.es', 'hotmail.com', 'hotmail.co', 'hotmai.es', 'hotmail.cm', 'hotmaill.es', 'hotmail.mx'],
+    'gmail.es': ['gmial.es', 'gmail.co', 'gmai.es', 'gmail.cm', 'gmaill.es', 'gmail.mx'],
+    'hotmail.es': ['hotmial.es', 'hotmail.co', 'hotmai.es', 'hotmail.cm', 'hotmaill.es', 'hotmail.mx'],
     'outlook.es': ['outlok.es', 'outlook.com', 'outlook.co', 'outloo.es', 'outlook.cm', 'outlookk.es', 'outlook.mx'],
     'yahoo.es': ['yaho.es', 'yahoo.com', 'yahoo.co', 'yahooo.es', 'yahoo.cm', 'yahoo.comm', 'yahoo.mx'],
     
